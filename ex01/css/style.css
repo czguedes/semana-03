@@ -1,0 +1,21 @@
+div{
+    margin-bottom: 10px;
+}
+
+table, td, tr{
+    border: 1px solid black;
+    width: 500px;
+    border-collapse: collapse;
+}
+
+.linha1{
+    text-align: start;
+}
+
+.linha2{
+    text-align: center;
+}
+
+.linha3{
+    text-align: end;
+}
