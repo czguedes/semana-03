@@ -8,24 +8,24 @@ body{
 }
 
 div{
-    border: 1px solid transparent;
-    /* display: inline; */
     position: relative;
-
+    margin: auto;
 }
 
 .yellow{
     background-color: yellow;
     width: 100px;
     height: 100px;
-
-    
+    z-index: 2;
+    top: 300px;
 }
 
 .green{
     background-color: green;
     width: 150px;
     height: 150px;
+    z-index: 1;
+    top: 175px;
 }
 
 .black{
@@ -38,10 +38,14 @@ div{
     background-color: red;
     width: 250px;
     height: 250px;
+    z-index: -1;
+    bottom: calc(250px - 25px);
 }
 
 .blue{
     background-color: blue;
     width: 300px;
     height: 300px;
+    z-index: -2;
+    bottom: calc(300px + 250px - 50px);
 }
