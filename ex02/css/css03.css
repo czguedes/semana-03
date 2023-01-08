@@ -1,0 +1,26 @@
+body{
+    background-color: lightgray;
+}
+
+div{
+    background-color: rgb(58, 58, 58);
+    color: whitesmoke;
+    padding: 20px;
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.div1{
+    border-radius: 20px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.div2{
+    border: 5px solid red;
+    text-transform: lowercase;
+    max-height: 50vh;
+    overflow: auto;
+}
