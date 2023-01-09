@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightgray;
+}
+
+div{
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    display: inline-block;
+    position: absolute;
+}
+
+.div2{
+    left: 35px;
+}
+
+.div3{
+    left: 70px;
+}
+
+.div4{
+    top: 35px;
+}
+
+.div5{
+    top: 35px;
+    left: 35px;
+}
+
+.div6{
+    top: 70px;
+}
+
+.div7{
+    right: 0;
+    bottom: 0;
+}
+
+.div8{
+    right: 35px;
+    bottom: 0;
+}
+
+.div9{
+    right: 70px;
+    bottom: 0;
+}
+
+.div10{
+    right: 0;
+    bottom: 35px;
+}
+
+.div11{
+    right: 35px;
+    bottom: 35px;
+}
+
+.div12{
+    right: 0;
+    bottom: 70px;
+}
